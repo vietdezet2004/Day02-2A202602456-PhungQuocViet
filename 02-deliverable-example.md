@@ -24,7 +24,7 @@ Nhân vật ví dụ: Minh, Junior Product Manager tại một công ty SaaS kho
 Minh scan 10 problems, vượt mức tối thiểu 5.
 
 | # | Lăng kính | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 1 | Lặp lại | Mỗi thứ Hai tổng hợp Weekly Report từ Jira, Sheets, Slack | PM, EM, CEO | Mất khoảng 90 phút/tuần |
 | 2 | Lặp lại | Copy sprint velocity từ Jira vào slide update | PM | Lặp lại mỗi tuần |
 | 3 | Tốn thời gian | Review PRD 10-15 trang trước khi comment | PM reviewer, design lead | 45 phút/bản |
@@ -46,7 +46,7 @@ Vì sao phần scan này mạnh:
 ## Top 3
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | Weekly Report | Workflow rõ, mất nhiều thời gian, có metric tốt | Narrative "đủ tốt" đo thế nào |
 | 2 | Review PRD | Có pain thật, AI có thể giúp đọc/tóm tắt | Quality improvement khó đo |
 | 3 | Slack Search | Nhiều người đau, impact rộng | Data access khó, scope có thể quá lớn |
@@ -123,7 +123,7 @@ Fallback: AI draft tệ → PM tự viết lại.
 ## Problem Cards #2 và #3 — tóm tắt
 
 | Card | Actor | Bottleneck | Metric | Quick gut | Vì sao chưa chọn làm #1 |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | Review PRD | PM reviewer | Đọc 10-15 trang để hiểu context | 45 phút → 20 phút | Workflow | Quality metric khó hơn |
 | Slack Search | Team member | Search keyword rồi đọc thread | 15 phút → dưới 2 phút | Agent / Workflow | Data access và scope rộng |
 
@@ -136,7 +136,7 @@ Fallback: AI draft tệ → PM tự viết lại.
 Nhóm 3-4 người, mỗi người share top 3. Tổng cộng khoảng 9-12 candidates.
 
 | Cluster | Candidate examples | Pattern chung |
-|---|---|---|
+| --- | --- | --- |
 | Báo cáo / tổng hợp thông tin | Weekly Report, meeting recap, lab progress summary | Gom thông tin từ nhiều nguồn rồi viết lại cho người khác đọc |
 | Tìm kiếm / hỏi đáp tài liệu | Slack Search, LMS Search, FAQ lab | Tìm đúng thông tin trong nhiều nguồn rời rạc |
 | Review / feedback | Review PRD, check Problem Statement, review assignment | Đọc bản nháp và chỉ ra thiếu sót |
@@ -145,7 +145,7 @@ Nhóm 3-4 người, mỗi người share top 3. Tổng cộng khoảng 9-12 cand
 ## Shortlist và score
 
 | Candidate | Actor rõ | Workflow rõ | Pain có evidence | Impact đo được | Làm trong lab | So sánh R/W/A được | Nhóm hiểu domain | Tổng |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Weekly Report | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 34 |
 | Slack Search | 4 | 4 | 4 | 4 | 3 | 4 | 4 | 27 |
 | Review PRD | 4 | 5 | 3 | 3 | 5 | 4 | 4 | 28 |
@@ -170,7 +170,7 @@ Vì sao không chọn các bài khác:
 Nhóm hỏi nhanh 3 PM/PO quen biết.
 
 | Nguồn | Số người | Tín hiệu xác nhận | Tín hiệu phản bác | Nhóm sửa problem thế nào |
-|---|---:|---|---|---|
+| --- | ---: | --- | --- | --- |
 | Quick interview | 3 | 2/3 người viết weekly/monthly update thủ công; đều đau ở phần narrative | 1 người nói dashboard đã đủ cho team của họ | Thu hẹp problem: không phải "report automation", mà là "draft narrative từ data có sẵn" |
 | Mini poll trong lớp | 6 | 4/6 từng phải tổng hợp report/update từ nhiều nguồn | Một số report không cần AI, chỉ cần template | Thêm non-AI alternative: template + dashboard |
 
@@ -185,11 +185,11 @@ Pain thật không nằm ở việc "lấy số" đơn thuần. Pain nằm ở �
 Nhóm tìm các hướng đã có sẵn, không giả định phải tự build từ đầu.
 
 | Nguồn / tool / case | Link | Họ giải quyết phần nào? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
-|---|---|---|---|---|---|
-| Atlassian Jira Reports | https://www.atlassian.com/software/jira/features/reports | Dashboard/report từ Jira data | Tốt cho số liệu structured | Không tự viết business narrative theo context Slack/Sheets | Rule/dashboard đủ cho bước lấy số, chưa đủ cho narrative |
-| Slack AI | https://slack.com/help/articles/25076892548883-Guide-to-Slack-AI | Summary/search trong Slack | Tốt cho recap conversation | Chỉ là một nguồn, không gom toàn bộ Jira/Sheets/Docs | Có thể dùng như input cho workflow, không phải toàn bộ solution |
-| Gemini in Drive | https://support.google.com/drive/answer/15141241 | Update/summarize nội dung file | Tốt cho tóm tắt tài liệu | Cần kiểm nguồn, không nên tự gửi output | AI draft cần người thật review |
-| Fellow AI Meeting Notes | https://fellow.ai/features/ai | Meeting notes, action items, summaries | Tốt cho recap có cấu trúc | Không trực tiếp giải bài toán Jira/Sheets weekly report | Pattern tốt: AI draft, người thật review |
+| --- | --- | --- | --- | --- | --- |
+| Atlassian Jira Reports | <https://www.atlassian.com/software/jira/features/reports> | Dashboard/report từ Jira data | Tốt cho số liệu structured | Không tự viết business narrative theo context Slack/Sheets | Rule/dashboard đủ cho bước lấy số, chưa đủ cho narrative |
+| Slack AI | <https://slack.com/help/articles/25076892548883-Guide-to-Slack-AI> | Summary/search trong Slack | Tốt cho recap conversation | Chỉ là một nguồn, không gom toàn bộ Jira/Sheets/Docs | Có thể dùng như input cho workflow, không phải toàn bộ solution |
+| Gemini in Drive | <https://support.google.com/drive/answer/15141241> | Update/summarize nội dung file | Tốt cho tóm tắt tài liệu | Cần kiểm nguồn, không nên tự gửi output | AI draft cần người thật review |
+| Fellow AI Meeting Notes | <https://fellow.ai/features/ai> | Meeting notes, action items, summaries | Tốt cho recap có cấu trúc | Không trực tiếp giải bài toán Jira/Sheets weekly report | Pattern tốt: AI draft, người thật review |
 
 Research takeaway:
 
@@ -236,7 +236,7 @@ PM review + edit. Đây là bottleneck chấp nhận được vì đó là đi�
 Before/after impact:
 
 | Metric | Trước | Sau kỳ vọng | Ghi chú |
-|---|---:|---:|---|
+| --- | ---: | ---: | --- |
 | Tổng thời gian | 90 phút | Dưới 30 phút | Target chính |
 | Số bước | 7 | 5 | Không chỉ giảm bước, mà giảm effort ở bước viết |
 | Bước thủ công | 7/7 | 2/5 | PM vẫn review và gửi |
@@ -246,7 +246,7 @@ Before/after impact:
 ## Problem Statement v0
 
 | Field | Nội dung |
-|---|---|
+| --- | --- |
 | **Actor** | Junior PM chịu trách nhiệm viết weekly report cho leadership. |
 | **Workflow** | Mỗi tuần PM export Jira, lấy metrics từ Sheets, đọc Slack recap, tổng hợp vào Docs, viết narrative, review và gửi email. |
 | **Bottleneck** | Bước viết narrative mất khoảng 25 phút vì PM phải tự biến raw data thành insight, highlight, risk và next action. |
@@ -257,7 +257,7 @@ Before/after impact:
 ## Rule / Workflow / Agent
 
 | Mức | Phương án | Khi nào đủ | Rủi ro | Chọn? |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **Rule** | Template report, auto-pull Jira/Sheets, fixed dashboard | Đủ nếu leadership chỉ cần số liệu | Không giải quyết narrative mỗi tuần khác nhau | Không chọn làm toàn bộ, nhưng dùng cho bước lấy số |
 | **Workflow** | Script lấy data → AI cấu trúc → AI draft narrative → PM review | Hợp vì workflow tuyến tính, AI chỉ hỗ trợ vài bước ngôn ngữ | Draft sai/nhạt, cần PM review | Chọn |
 | **Agent** | Agent tự lấy nhiều nguồn, phân tích, hỏi thêm, gửi report | Chỉ cần nếu workflow nhiều nhánh, nhiều tool, tự quyết bước tiếp theo | Quá rộng, nhiều permission/risk | Chưa chọn |
@@ -278,7 +278,7 @@ Vì sao:
 ## Problem Statement v1
 
 | Field | Nội dung |
-|---|---|
+| --- | --- |
 | **Actor** | Junior PM chịu trách nhiệm weekly report cho leadership. |
 | **Workflow** | Export Jira → lấy metrics Sheets → đọc Slack → tổng hợp → viết narrative → review → gửi. |
 | **Bottleneck** | Viết narrative từ raw data mất 25 phút và dễ trễ deadline. |
@@ -323,7 +323,7 @@ Decision rationale:
 ## Đóng góp của Minh trong nhóm
 
 | Hoạt động | Minh đã làm gì? | Kết quả |
-|---|---|---|
+| --- | --- | --- |
 | Scan cá nhân | Đưa ra 10 problems | Nhóm có nhiều candidate về reporting/workflow |
 | Pitch | Pitch Weekly Report | Bài được vào shortlist |
 | Challenge | Hỏi nhóm Slack Search có data access không | Nhóm loại bớt scope quá rộng |
@@ -334,7 +334,7 @@ Decision rationale:
 ## Bảng dùng AI trong reflection
 
 | Phase | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai/hời hợt ở đâu? | Tôi sửa gì |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Scan | Gợi ý thêm problems theo role PM | Giúp nhớ thêm Slack Search, PRD Review | Gợi ý vài ý quá rộng | Bỏ các ý không có workflow thật |
 | Workflow | Nhờ AI chuyển mô tả thành Mermaid | Nhanh hơn khi vẽ flow | AI gộp bước viết narrative và review | Tách lại vì bottleneck nằm ở narrative |
 | Research | Tìm tool tương tự | Gợi ý Jira, Slack AI, Gemini, Fellow | Có claim tiết kiệm thời gian không nguồn | Chỉ giữ link tool chính thức, không dùng số liệu không verify |
