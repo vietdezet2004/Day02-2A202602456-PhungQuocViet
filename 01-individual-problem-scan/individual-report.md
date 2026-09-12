@@ -4,10 +4,10 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên:
-- Mã học viên:
-- Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...):
-- Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
+- Họ và tên: Phùng Quốc Việt
+- Mã học viên: 2A202602456
+- Vai trò / bối cảnh: Sinh viên năm cuối PTIT
+- Công việc hằng tuần (3-5 gạch đầu dòng để soi problem): 
 
 ---
 
@@ -17,11 +17,11 @@
 
 | # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
+| 1 |Lặp lại |Viết tài liệu postman và giải thích payload cho Dev Frontend khi Dev Backend(Tôi) viết các endpoint mới |Dev BE(Tôi), dev FE |30 phút mỗi lần viết endpoint mới của Dev BE(Tôi), có thể hỏi miệng khảong 3-4 lần của Dev FE |
+| 2 |Tốn thời gian |Điều chỉnh CV cho từng công ti khác nhau |Tôi |Có khi để viết CV vào 1 cty hết 1 tiếng nhưng khi apply thì báo cần có kinh nghiệm 3 năm |
+| 3 |Pain từ người khác |Thành viên nhóm đồ án gửi bài báo cáo không theo format |Leader |Mất cả tiếng để ngồi đọc lại và sửa lại cho đúng format của bài |
+| 4 |Pain từ người khác |Sắp xếp 1 lịch họp nhóm đồ án với nhau qua mess nhưng mỗi người 1 việc làm khác nhau lệch giờ |cả nhóm |30-40 phút trao đổi qua lại và gần chốt thì có thành viên mới bắt đầu vào  |
+| 5 |Tốn thời gian |Viết meeting note trong các cuộc họp nhóm đồ án |cả nhóm |30-40 phút mỗi cuộc họp |
 | 6 | | | | |
 | 7 | | | | |
 | 8 | | | | |
